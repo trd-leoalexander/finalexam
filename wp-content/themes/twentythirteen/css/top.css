@@ -1,0 +1,413 @@
+@CHARSET "utf-8";
+#news1{
+    position:absolute;
+    top:390px;
+    left:450px;
+}
+
+#news2{
+    position:absolute;
+    top:330px;
+    left:680px;
+}
+.news{
+    z-index:500;
+    width:930px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    width:170px;
+    height:170px;
+    overflow:hidden;
+    -moz-box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+    background-color:#f0ff00;
+}
+
+.news H4{
+    margin:20px;
+    font-weight:bold;
+    width: 130px;
+    height: 13px;
+}
+
+.news dl{
+    margin:0 20px 0 20px;
+}
+
+.news dl dt{
+    text-align:left;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.news dl dd{
+    text-align:left;
+    line-height:1.3em;
+}
+
+.news img{
+    margin-top:20px;
+}
+img#arrow1 {
+  width: 19px;
+  height: 18px;
+  position: absolute;
+  top: 113px;
+  left: 78px;
+}
+img#arrow2 {
+  width: 19px;
+  height: 18px;
+  position: absolute;
+  top: 113px;
+  left: 78px;
+}
+
+.news a{/*リンクされた文字*/
+    color:#000;
+    font-style:normal;
+    text-decoration:
+}
+.news .article a:link {/*未訪問のリンク*/
+    color:#000;
+    font-style:normal;
+    text-decoration:none;
+}
+.news .article a:visited {/*訪問後のリンク*/
+    color:#000;
+    font-style:normal;
+    text-decoration:none;
+}
+.news .article a:hover {/*マウスをのせたとき*/
+    color:#933;
+    font-style:normal;
+    text-decoration:none;
+}
+.news .article a:active {/*クリック中*/
+    color:#000;
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+/* fig共通 */
+
+h2{
+    height: 50.667px;
+    font-size: 87%;
+    line-height: 1.1;
+}
+.idx-figCont{
+    padding:28px 30px 36px 30px; /*fig 余白調整*/
+}
+
+.figImg{
+    margin-bottom:10px;
+}
+
+.figTi{
+    font-size:167%;
+    line-height:1.2em;
+    color:#FFF; 
+    margin-bottom:20px;
+}
+
+.figCopy{
+    font-size:98.1%;
+    line-height:1.3em;
+    color:#FFF;
+    font-weight:bold;
+    margin-bottom:45px;
+}
+
+.figTxt{
+    font-size:81%;
+    letter-spacing:0.05em;
+    line-height:1.8em;
+    text-align:justify;
+    margin:0 0 20px 0;
+}
+
+.brushLine{
+    width:100%;
+    height:2px;
+    background-image:url(../images/images/tmp_brushline.png);
+    background-position:center;
+}
+
+.idx-figCont .nav{
+	margin-left: -30px;
+}
+
+.idx-figCont .nav ul{
+    list-style:none;
+    margin:20px 0 0 0;
+    width:100%;
+}
+
+.idx-figCont .nav ul li{
+    display:block;
+    background-image:url(../images/images/tmp_arrow-a.png);
+    background-repeat:no-repeat;
+    height:18px;
+    float:left;
+    padding:3px 0 0 25px;
+    margin:0px 25px 10px 0;
+    font-weight:bold;
+    font-size:108%;
+    letter-spacing:0;
+}
+.idx-figCont .nav ul li a{
+    font-size: 83%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+  	top: -7px;
+}
+
+
+/* fig 01 */
+
+#idx-cont_fig01{
+    width:339px;
+    position:absolute;
+    top:570px;
+    left:600px;
+}
+
+#idx-cont_fig01 .idx-bkTop{
+    line-height: 0px;
+    margin:0px;
+    padding:0px;
+}
+
+#idx-cont_fig01 .idx-bkMid{
+    background-image:url(../images/images/idx_cnt_fig01_bk_m.png);
+    margin:0px;
+    padding:0px;
+}
+
+#idx-cont_fig01 .idx-bkBtm{
+    margin:0px;
+    padding:0px;
+}
+
+#idx-cont_fig01 .idx-figCont{
+    position:absolute;
+    width:285px;
+    left:0px;
+}
+
+/* fig 02 */
+
+#idx-cont_fig02{
+    width:513px;
+    position:absolute;
+    top:1266px;
+    left:0px;
+}
+
+#idx-cont_fig02 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig02 .idx-bkMid{
+    background-image:url(../images/images/idx_cnt_fig02_bk_m.png);
+}
+
+#idx-cont_fig02 .idx-bkBtm{
+}
+
+#idx-cont_fig02 .idx-figCont{
+    position:absolute;
+    width:453px;
+    left:0px;
+}
+#figCopy2{
+	  margin-top: -27px;
+}
+
+/* fig 03 */
+
+#idx-cont_fig03{
+    width:396px;
+    position:absolute;
+    top:1900px;
+    left:580px;
+}
+
+#idx-cont_fig03 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig03 .idx-bkMid{
+    background-image:url(../images/images/idx_cnt_fig03_bk_m.png);
+}
+
+#idx-cont_fig03 .idx-bkBtm{
+}
+
+#idx-cont_fig03 .idx-figCont{
+    position:absolute;
+    width:333px;
+    left:0px;
+}
+#figCopy3{
+      margin-top: -27px;
+}
+
+/* fig 04 */
+
+#idx-cont_fig04{
+    width:545px;
+    position:absolute;
+    top:2300px;
+    left:10px;
+}
+
+#idx-cont_fig04 .idx-figCont{
+    padding-top:65px;
+    padding-bottom:165px;
+}
+
+#idx-cont_fig04 .figTi{
+    color:#000;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig04 .figCopy{
+    color:#000;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig04 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig04 .idx-bkMid{
+    background-image:url(../images/images/idx_cnt_fig04_bk_m.png);
+}
+
+#idx-cont_fig04 .idx-bkBtm{
+}
+
+#idx-cont_fig04 .idx-figCont{
+    position:absolute;
+    width:485px;
+    left:0px;
+}
+
+#figCopy4{
+      margin-top: -27px;
+}
+
+/* fig 05 */
+
+#idx-cont_fig05{
+    width:395px;
+    position:absolute;
+    top:3000px;
+    left:500px;
+}
+
+#idx-cont_fig05 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig05 .idx-bkMid{
+    background-image:url(../images/images/idx_cnt_fig05_bk_m.png);
+}
+
+#idx-cont_fig05 .idx-bkBtm{
+}
+
+#idx-cont_fig05 .idx-figCont{
+    position:absolute;
+    left:0px;
+}
+
+#idx-cont_fig05 .figTi{
+    color:#FFF;
+    margin-bottom:8px;
+}
+
+#idx-cont_fig05 .figTitle{
+    color:#FFF;
+    font-size:131%;
+    margin-bottom:30px;
+    text-align:left;
+    line-height:1.2em;
+    
+}
+
+#idx-cont_fig05 .figDate{
+    color:#FFF;
+    margin-bottom:5px;
+    text-align:left;
+    letter-spacing:0.2em;
+}
+
+#idx-cont_fig05 .figCopy{
+    color:#FFF;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig05 .figTxt{
+    color:#FFF;
+    margin-right: 20px;
+}
+
+#idx-cont_fig05 .nav{
+    text-align:center;
+    margin-bottom:70px;
+    margin-top: -15px;
+}
+
+#idx-cont_fig05 ul li{
+    width:300px;
+    color:#FFF;
+    background-image:url(../images/images/idx_arrow_wb.png);
+    background-position:38%;
+    display:block;
+}
+
+#idx-cont_fig05 .nav a{/*リンクされた文字*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:
+}
+#idx-cont_fig05 .nav a:link {/*未訪問のリンク*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:visited {/*訪問後のリンク*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:hover {/*マウスをのせたとき*/
+    color:#ddd;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:active {/*クリック中*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#figCopy5{
+      margin-top: -27px;
+}
+
+#columDate {
+  font-size: 100%;
+  margin-top: 50px;
+  margin-bottom: -95px;
+}

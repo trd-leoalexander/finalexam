@@ -1,0 +1,58 @@
+@CHARSET "utf-8";
+#footer{
+	background-image: url('../images/images/foot_bk.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 2000px;
+	height: 690px;
+	left: -535px;
+	position: absolute;
+	z-index: 4;
+}
+#footObj{
+	width: 930px;
+	min-width: 930px;
+	height: 690px;
+	text-align: left;
+	position: absolute;
+	left: 50%;
+	margin-left: -465px;
+}
+#footObj #img1{
+	width: 122px;
+	height: 112px;
+	position: absolute;
+	top: 250px;
+	left: 170px;
+	
+}
+#footObj #img2{
+	width: 118px;
+	height: 104px;
+	position: absolute;
+	top: 420px;
+	left: 730px;
+}
+#footObj #img3{
+	width: 162px;
+	height: 190px;
+	position: absolute;
+	top: 50px;
+	left: 700px;
+}
+#footObj #img4{
+	width: 344px;
+	height: 75px;
+	position: absolute;
+	left: 50%;
+	margin-left: -172px;
+	top: 385px;
+}
+#footObj #img5{
+	width: 280px;
+	height: 11px;
+	position: absolute;
+	left: 50%;
+	margin-left: -140px;
+	top: 562px;
+}
